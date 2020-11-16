@@ -13,6 +13,7 @@ import com.example.appinventario.MAIN_OPTIONS.usuarios;
 
 public class menu extends AppCompatActivity {
     Button binventario;
+    Button bcategoria;
     Button bvendedores;
     Button bventas;
     Button bclientes;
@@ -37,6 +38,22 @@ public class menu extends AppCompatActivity {
             }
         });
         bvendedores =  (Button) findViewById(R.id.vendedores);
+        bcategoria =  (Button) findViewById(R.id.categorias);
+
+        binventario =  (Button) findViewById(R.id.inventario);
+        binventario.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                if(grade<3) {
+                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    intent.putExtra("grade", grade);
+                    startActivity(intent);
+                }else{
+                    Toast.makeText(getApplicationContext(),"Nivel de usuario insuficiente", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
         buser =  (Button) findViewById(R.id.user);
         buser.setOnClickListener(new View.OnClickListener(){
             @Override

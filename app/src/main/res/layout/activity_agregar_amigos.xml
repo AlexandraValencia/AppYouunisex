@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".agregarAmigos"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgFotoAmigo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:text="Imagen del Articulo: -> "></TextView>
+
+    <EditText
+        android:id="@+id/txtNombreAmigo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="130dp"
+        android:hint="Nombre Articulo"/>
+
+    <EditText
+        android:id="@+id/txtTelefonoAmigo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:hint="Descripcion"/>
+    <EditText
+        android:id="@+id/txtDireccionAmigo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="270dp"
+        android:inputType="number"
+        android:hint="Stock"/>
+    <EditText
+        android:id="@+id/txtEmailAmigo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="345dp"
+        android:inputType="number"
+        android:hint=" $ Precio"/>
+    <Button
+        android:id="@+id/btnGuardarAmigos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:text="Guardar Articulo"/>
+    <Button
+        android:id="@+id/btnMostrarAmigos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:text="Mostrar Articulos"/>
+
+</RelativeLayout>

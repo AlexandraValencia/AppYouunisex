@@ -12,8 +12,9 @@
 
     <string name="nombre">Nombre</string>
     <string name="telefono">Telefono</string>
-    <string name="inventario">Inventario Productos</string>
-    <string name="sexo">Sexo</string>
+    <string name="inventario">Inventario de Ropa</string>
+    <string name="categoria">Categorias</string>
+    <string name="sexo">Genero</string>
     <string name="clientes">Clientes</string>
     <string name="lista_de_personas">Lista de Personas</string>
     <string name="registro_inventario">Registro Inventario</string>
@@ -24,7 +25,7 @@
     <string name="busqueda_de_material">Busqueda de Material</string>
     <string name="buscar">Buscar</string>
     <string name="tipo">Tipo</string>
-    <string name="sistema_de_bodega">Sistema de Inventario</string>
+    <string name="sistema_de_bodega">Tienda de Ropa</string>
     <string name="la_bodeguita">"Youunisex"</string>
     <string name="vendedores">Vendedores</string>
     <string name="usuarios">Usuarios</string>
