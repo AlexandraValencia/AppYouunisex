@@ -30,4 +30,10 @@
     <string name="vendedores">Vendedores</string>
     <string name="usuarios">Usuarios</string>
 
+    <string-array name="opciones">
+        <item>Articulos Hombre</item>
+        <item>Articulos Mujer</item>
+        <item>Ir al Carro de compras</item>
+    </string-array>
+
 </resources>

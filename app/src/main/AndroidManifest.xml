@@ -26,14 +26,22 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity">
-
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".HomeActivity">
         </activity>
-
-        <activity android:name=".agregarAmigos">
-
-        </activity>
-
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".Activity2"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".Activity3"
+            android:parentActivityName=".Activity2" />
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".ActivityStore"
+            android:parentActivityName=".HomeActivity"></activity>
         <activity
             android:name=".MAIN_OPTIONS.Clientes"
             android:screenOrientation="locked" />
@@ -42,14 +50,5 @@
             android:screenOrientation="locked" />
         <activity android:name=".EDIT.edit_clientes" android:screenOrientation="locked"/>
 
-        <provider
-            android:authorities="com.example.appinventario.fileprovider"
-            android:name="androidx.core.content.FileProvider"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths"></meta-data>
-        </provider>
     </application>
 </manifest>

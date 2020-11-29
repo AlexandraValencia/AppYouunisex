@@ -38,14 +38,13 @@ public class menu extends AppCompatActivity {
             }
         });
         bvendedores =  (Button) findViewById(R.id.vendedores);
-        bcategoria =  (Button) findViewById(R.id.categorias);
 
         binventario =  (Button) findViewById(R.id.inventario);
         binventario.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 if(grade<3) {
-                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                     intent.putExtra("grade", grade);
                     startActivity(intent);
                 }else{
