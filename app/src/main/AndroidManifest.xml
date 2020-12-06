@@ -50,5 +50,9 @@
             android:screenOrientation="locked" />
         <activity android:name=".EDIT.edit_clientes" android:screenOrientation="locked"/>
 
+        <activity android:name=".MAIN_OPTIONS.vendedores" android:screenOrientation="locked"/>
+        <activity android:name=".ADD.add_vendedores" android:screenOrientation="locked"/>
+        <activity android:name=".EDIT.edit_vendedores" android:screenOrientation="locked"/>
+
     </application>
 </manifest>

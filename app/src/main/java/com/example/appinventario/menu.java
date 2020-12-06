@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.appinventario.MAIN_OPTIONS.Clientes;
 import com.example.appinventario.MAIN_OPTIONS.usuarios;
+import com.example.appinventario.MAIN_OPTIONS.vendedores;
 
 public class menu extends AppCompatActivity {
     Button binventario;
@@ -38,6 +39,18 @@ public class menu extends AppCompatActivity {
             }
         });
         bvendedores =  (Button) findViewById(R.id.vendedores);
+        bvendedores.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                if (grade < 3) {
+                    Intent intent = new Intent(getApplicationContext(), vendedores.class);
+                    intent.putExtra("grade", grade);
+                    startActivity(intent);
+                }else{
+                    Toast.makeText(getApplicationContext(),"Nivel de usuario insuficiente",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
         binventario =  (Button) findViewById(R.id.inventario);
         binventario.setOnClickListener(new View.OnClickListener(){

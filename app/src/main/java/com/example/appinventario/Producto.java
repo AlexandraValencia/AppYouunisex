@@ -11,17 +11,21 @@ public class Producto {
     private int imagenID;
     private int precio ;
 
-//DECLARACIÓN DE ARREGLO CONSTANTE QUE CONTIENE PRODUCTOS DEL TIPO CERVEZAS
+//DECLARACIÓN DE ARREGLO CONSTANTE QUE CONTIENE PRODUCTOS DEL TIPO HOMBRE
     public final static Producto hombre[]={
             new Producto("Camisa","Camisa para lucir elegante, tipo Polo casual",R.drawable.camisa,15),
             new Producto("Pantalon", "Pantalon para caballero, para toda ocasion",R.drawable.pantalon,25),
-            new Producto("Short","Short para caballero, ideal para dias calurosos o para ir a la playa",R.drawable.shorts,20)
+            new Producto("Short","Short para caballero, ideal para dias calurosos o para ir a la playa",R.drawable.shorts,20),
+            new Producto("Jogger", "Jogger para caballero, para hacer ejercicio e ir al gymnasio",R.drawable.jogger,25),
+            new Producto("Camiseta","Camiseta para caballero, ideal para dias calurosos",R.drawable.camiseta,10)
     };
-//DECLARACIÓN DE ARREGLO CONSTANTE QUE CONTIENE PRODUCTOS DEL TIPO PIZZAS
+//DECLARACIÓN DE ARREGLO CONSTANTE QUE CONTIENE PRODUCTOS DEL TIPO MUJER
     public final static Producto mujer[]={
             new Producto("Blusa","Blusa elegante para dama, con costura de alta calidad",R.drawable.blusa,25),
             new Producto("Jeans","Jeans casuales, comodos e ideales para salir de paseo",R.drawable.jeans,20),
-            new Producto("Vestido","Vestido para lucir elegante",R.drawable.vestido,35)
+            new Producto("Vestido","Vestido para lucir elegante",R.drawable.vestido,35),
+            new Producto("camiseta","Camiseta para dama, ideal para dias calurosos",R.drawable.camisetadama,10),
+            new Producto("Leggins","Para hacer ejercicio e ir al gymnasio",R.drawable.leggins,15)
     };
 
     /**
