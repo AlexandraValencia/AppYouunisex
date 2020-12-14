@@ -13,7 +13,7 @@ import com.example.appinventario.MAIN_OPTIONS.usuarios;
 import com.example.appinventario.MAIN_OPTIONS.vendedores;
 
 public class menu extends AppCompatActivity {
-    Button binventario;
+    Button binventario, bchat;
     Button bcategoria;
     Button bvendedores;
     Button bventas;
@@ -58,6 +58,20 @@ public class menu extends AppCompatActivity {
             public void onClick(View view){
                 if(grade<3) {
                     Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                    intent.putExtra("grade", grade);
+                    startActivity(intent);
+                }else{
+                    Toast.makeText(getApplicationContext(),"Nivel de usuario insuficiente", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        bchat =  (Button) findViewById(R.id.chat);
+        bchat.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                if(grade<3) {
+                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     intent.putExtra("grade", grade);
                     startActivity(intent);
                 }else{

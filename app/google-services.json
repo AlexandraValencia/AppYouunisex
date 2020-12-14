@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "908826049963",
+    "firebase_url": "https://chat-youunisex-default-rtdb.firebaseio.com",
+    "project_id": "chat-youunisex",
+    "storage_bucket": "chat-youunisex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908826049963:android:41c9483ac8cdd4566ca6ee",
+        "android_client_info": {
+          "package_name": "com.example.appinventario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908826049963-r7bs7d1lldqjqv4fhi4g7mr9algves7a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appinventario",
+            "certificate_hash": "b583565db7dfbb8328fcc8d68b5bfaee6b03390d"
+          }
+        },
+        {
+          "client_id": "908826049963-9q9f4rbepmskbeijlsuag4e1n75iue0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDVfM07i4CSZsT50ljXUOCWJLFy1KZaIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908826049963-9q9f4rbepmskbeijlsuag4e1n75iue0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
